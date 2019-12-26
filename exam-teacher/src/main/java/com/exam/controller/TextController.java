@@ -68,9 +68,44 @@ public class TextController {
 		return "/text/add";
 	}
 	
+	@RequestMapping(value="/batchAdd", method=RequestMethod.GET)
+	public String batchAddTextView(HttpServletRequest request,Model model){
+		
+		HttpSession session = request.getSession();
+		Teacher teacher = (Teacher) session.getAttribute("teacherInfo");
+		List<Subject> textList = subjectService.showList(teacher.getId());
+		Subject subject = textList.get(0);
+		List<Chapter> chapterList = chapterService.getChapter(subject.getId());
+		List<Textmodel> textModelList = textModelService.showList();
+		model.addAttribute("textList", textList);
+		model.addAttribute("textModelList", textModelList);
+		model.addAttribute("chapterList", chapterList);
+		return "/text/batchAdd";
+	}
+	
 	@RequestMapping(value="/add", method=RequestMethod.POST)
 	@ResponseBody
 	public AjaxResult addText(Text text){
+		
+		Integer chapterid = text.getChapterid();
+		Chapter chapter = chapterService.selectOne(chapterid);
+		text.setChaptername(chapter.getName()+"   "+chapter.getTitle());
+		
+		Integer subjectid = text.getSubjectid();
+		Subject subject = subjectService.selectOne(subjectid);
+		text.setSubjectname(subject.getName());
+		
+		Integer texId = text.getTexId();
+		Textmodel textmodel = textModelService.selectOne(texId);
+		text.setModelname(textmodel.getTexttype());
+		
+		textService.insert(text);
+		return AjaxResult.successInstance("添加成功");
+	}
+	
+	@RequestMapping(value="/batchAdd", method=RequestMethod.POST)
+	@ResponseBody
+	public AjaxResult batchAddText(Text text){
 		
 		Integer chapterid = text.getChapterid();
 		Chapter chapter = chapterService.selectOne(chapterid);

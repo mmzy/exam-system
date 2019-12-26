@@ -36,6 +36,8 @@
 	<form action="<%=path%>/text/list">
 		<input type="hidden" id="curr" name="curr">
 	</form>
+	<button class="btn size-M radius" onclick="showLayer('批量添加试题','<%=path%>/text/batchAdd')"> 批量添加</button>
+	<button class="btn size-M radius" onclick="showLayer('添加单个试题','<%=path%>/text/add')"> 单个添加</button>
     <table class="table table-border table-bordered table-bg table-hover">
         <thead>
             <tr>
@@ -45,9 +47,7 @@
             	<th>所属模块</th>
             	<th>试题题目</th>
                 <th>试题难度</th>
-                
-                
-                <th>操作 <button class="btn size-M radius" onclick="showLayer('添加试题','<%=path%>/text/add')"> 添加</button></th>
+                <th>操作</th>
             </tr>
         </thead>
         <tbody>
