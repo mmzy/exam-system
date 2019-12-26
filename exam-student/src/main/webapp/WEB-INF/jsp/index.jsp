@@ -50,6 +50,7 @@
     				<ul>
                         <li><a _href="<%=path%>/exam/list" href="javascript:void(0)">考试管理</a></li>
                         <li><a _href="<%=path%>/studentScore/list" href="javascript:void(0)">查询学生成绩</a></li>
+                        <li><a _href="<%=path%>/wrongBank/list" href="javascript:void(0)">错题库</a></li>
 		
     				</ul>
     			</dd>
