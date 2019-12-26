@@ -1,0 +1,79 @@
+package com.exam.controller;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.exam.pojo.Subject;
+import com.exam.pojo.Textmodel;
+import com.exam.pojo.util.BeanTextModel;
+import com.exam.pojo.util.TextModel;
+import com.exam.service.SubjectService;
+import com.exam.service.TextModelService;
+import com.exam.util.AjaxResult;
+
+@Controller
+@RequestMapping("/exam")
+public class ExamController {
+	
+
+	@Autowired
+	private SubjectService subjectService;
+	@Autowired
+	private TextModelService textModelService;
+
+	@RequestMapping("/list")
+	public String showExam(){
+		
+		return "/exam/list";
+	}
+	
+	@RequestMapping(value="/add", method=RequestMethod.GET)
+	public String addExamView(Model model){
+		List<Subject> textList = subjectService.showList();
+		List<Textmodel> textModelList = textModelService.showList();
+		model.addAttribute("textList", textList);
+		model.addAttribute("textModelList", textModelList);
+		return "/exam/add";
+	}
+	
+	@RequestMapping(value="/add", method=RequestMethod.POST)
+	@ResponseBody
+	public AjaxResult addExam(int subjectid,String examType,int[] textModelIds,BeanTextModel beanTextModel){
+		
+		System.out.println(subjectid);
+		//System.out.println(publishTime.getTime());
+		System.out.println(examType);
+		
+		
+		List<TextModel> list = new ArrayList<TextModel>();
+		for (int i : textModelIds) {
+			for (TextModel textModel : beanTextModel.getListTextModel()) {
+				if (textModel.getTextModelId() == i){
+					list.add(textModel);
+				}
+			}
+		}
+		for (TextModel textModel : list) {
+			System.out.println(textModel.getTextModelId());
+			System.out.println(textModel.getGrade());
+			System.out.println(textModel.getTextCount());
+		}
+		return AjaxResult.successInstance("添加成功");
+	}
+	
+	
+	@RequestMapping("/update")
+	public String updateExam(){
+		
+		return "/exam/update";
+	}
+	
+}

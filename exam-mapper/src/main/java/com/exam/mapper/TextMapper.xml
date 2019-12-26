@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.exam.mapper.TextMapper" >
+  <resultMap id="BaseResultMap" type="com.exam.pojo.Text" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="Tex_id" property="texId" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="answer" property="answer" jdbcType="VARCHAR" />
+    <result column="diffculty" property="diffculty" jdbcType="INTEGER" />
+    <result column="modelName" property="modelname" jdbcType="VARCHAR" />
+    <result column="subjectName" property="subjectname" jdbcType="VARCHAR" />
+    <result column="subjectId" property="subjectid" jdbcType="INTEGER" />
+    <result column="chapterId" property="chapterid" jdbcType="INTEGER" />
+    <result column="chapterName" property="chaptername" jdbcType="VARCHAR" />
+    <result column="type1" property="type1" jdbcType="VARCHAR" />
+    <result column="type2" property="type2" jdbcType="VARCHAR" />
+    <result column="type3" property="type3" jdbcType="VARCHAR" />
+    <result column="type4" property="type4" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, Tex_id, title, answer, diffculty, modelName, subjectName, subjectId, chapterId, 
+    chapterName, type1, type2, type3, type4
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.exam.pojo.TextExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from text
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from text
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from text
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.exam.pojo.TextExample" >
+    delete from text
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.exam.pojo.Text" >
+    insert into text (id, Tex_id, title, 
+      answer, diffculty, modelName, 
+      subjectName, subjectId, chapterId, 
+      chapterName, type1, type2, 
+      type3, type4)
+    values (#{id,jdbcType=INTEGER}, #{texId,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, 
+      #{answer,jdbcType=VARCHAR}, #{diffculty,jdbcType=INTEGER}, #{modelname,jdbcType=VARCHAR}, 
+      #{subjectname,jdbcType=VARCHAR}, #{subjectid,jdbcType=INTEGER}, #{chapterid,jdbcType=INTEGER}, 
+      #{chaptername,jdbcType=VARCHAR}, #{type1,jdbcType=VARCHAR}, #{type2,jdbcType=VARCHAR}, 
+      #{type3,jdbcType=VARCHAR}, #{type4,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.exam.pojo.Text" >
+    insert into text
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="texId != null" >
+        Tex_id,
+      </if>
+      <if test="title != null" >
+        title,
+      </if>
+      <if test="answer != null" >
+        answer,
+      </if>
+      <if test="diffculty != null" >
+        diffculty,
+      </if>
+      <if test="modelname != null" >
+        modelName,
+      </if>
+      <if test="subjectname != null" >
+        subjectName,
+      </if>
+      <if test="subjectid != null" >
+        subjectId,
+      </if>
+      <if test="chapterid != null" >
+        chapterId,
+      </if>
+      <if test="chaptername != null" >
+        chapterName,
+      </if>
+      <if test="type1 != null" >
+        type1,
+      </if>
+      <if test="type2 != null" >
+        type2,
+      </if>
+      <if test="type3 != null" >
+        type3,
+      </if>
+      <if test="type4 != null" >
+        type4,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="texId != null" >
+        #{texId,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="answer != null" >
+        #{answer,jdbcType=VARCHAR},
+      </if>
+      <if test="diffculty != null" >
+        #{diffculty,jdbcType=INTEGER},
+      </if>
+      <if test="modelname != null" >
+        #{modelname,jdbcType=VARCHAR},
+      </if>
+      <if test="subjectname != null" >
+        #{subjectname,jdbcType=VARCHAR},
+      </if>
+      <if test="subjectid != null" >
+        #{subjectid,jdbcType=INTEGER},
+      </if>
+      <if test="chapterid != null" >
+        #{chapterid,jdbcType=INTEGER},
+      </if>
+      <if test="chaptername != null" >
+        #{chaptername,jdbcType=VARCHAR},
+      </if>
+      <if test="type1 != null" >
+        #{type1,jdbcType=VARCHAR},
+      </if>
+      <if test="type2 != null" >
+        #{type2,jdbcType=VARCHAR},
+      </if>
+      <if test="type3 != null" >
+        #{type3,jdbcType=VARCHAR},
+      </if>
+      <if test="type4 != null" >
+        #{type4,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.exam.pojo.TextExample" resultType="java.lang.Integer" >
+    select count(*) from text
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update text
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.texId != null" >
+        Tex_id = #{record.texId,jdbcType=INTEGER},
+      </if>
+      <if test="record.title != null" >
+        title = #{record.title,jdbcType=VARCHAR},
+      </if>
+      <if test="record.answer != null" >
+        answer = #{record.answer,jdbcType=VARCHAR},
+      </if>
+      <if test="record.diffculty != null" >
+        diffculty = #{record.diffculty,jdbcType=INTEGER},
+      </if>
+      <if test="record.modelname != null" >
+        modelName = #{record.modelname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.subjectname != null" >
+        subjectName = #{record.subjectname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.subjectid != null" >
+        subjectId = #{record.subjectid,jdbcType=INTEGER},
+      </if>
+      <if test="record.chapterid != null" >
+        chapterId = #{record.chapterid,jdbcType=INTEGER},
+      </if>
+      <if test="record.chaptername != null" >
+        chapterName = #{record.chaptername,jdbcType=VARCHAR},
+      </if>
+      <if test="record.type1 != null" >
+        type1 = #{record.type1,jdbcType=VARCHAR},
+      </if>
+      <if test="record.type2 != null" >
+        type2 = #{record.type2,jdbcType=VARCHAR},
+      </if>
+      <if test="record.type3 != null" >
+        type3 = #{record.type3,jdbcType=VARCHAR},
+      </if>
+      <if test="record.type4 != null" >
+        type4 = #{record.type4,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update text
+    set id = #{record.id,jdbcType=INTEGER},
+      Tex_id = #{record.texId,jdbcType=INTEGER},
+      title = #{record.title,jdbcType=VARCHAR},
+      answer = #{record.answer,jdbcType=VARCHAR},
+      diffculty = #{record.diffculty,jdbcType=INTEGER},
+      modelName = #{record.modelname,jdbcType=VARCHAR},
+      subjectName = #{record.subjectname,jdbcType=VARCHAR},
+      subjectId = #{record.subjectid,jdbcType=INTEGER},
+      chapterId = #{record.chapterid,jdbcType=INTEGER},
+      chapterName = #{record.chaptername,jdbcType=VARCHAR},
+      type1 = #{record.type1,jdbcType=VARCHAR},
+      type2 = #{record.type2,jdbcType=VARCHAR},
+      type3 = #{record.type3,jdbcType=VARCHAR},
+      type4 = #{record.type4,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.exam.pojo.Text" >
+    update text
+    <set >
+      <if test="texId != null" >
+        Tex_id = #{texId,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="answer != null" >
+        answer = #{answer,jdbcType=VARCHAR},
+      </if>
+      <if test="diffculty != null" >
+        diffculty = #{diffculty,jdbcType=INTEGER},
+      </if>
+      <if test="modelname != null" >
+        modelName = #{modelname,jdbcType=VARCHAR},
+      </if>
+      <if test="subjectname != null" >
+        subjectName = #{subjectname,jdbcType=VARCHAR},
+      </if>
+      <if test="subjectid != null" >
+        subjectId = #{subjectid,jdbcType=INTEGER},
+      </if>
+      <if test="chapterid != null" >
+        chapterId = #{chapterid,jdbcType=INTEGER},
+      </if>
+      <if test="chaptername != null" >
+        chapterName = #{chaptername,jdbcType=VARCHAR},
+      </if>
+      <if test="type1 != null" >
+        type1 = #{type1,jdbcType=VARCHAR},
+      </if>
+      <if test="type2 != null" >
+        type2 = #{type2,jdbcType=VARCHAR},
+      </if>
+      <if test="type3 != null" >
+        type3 = #{type3,jdbcType=VARCHAR},
+      </if>
+      <if test="type4 != null" >
+        type4 = #{type4,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.exam.pojo.Text" >
+    update text
+    set Tex_id = #{texId,jdbcType=INTEGER},
+      title = #{title,jdbcType=VARCHAR},
+      answer = #{answer,jdbcType=VARCHAR},
+      diffculty = #{diffculty,jdbcType=INTEGER},
+      modelName = #{modelname,jdbcType=VARCHAR},
+      subjectName = #{subjectname,jdbcType=VARCHAR},
+      subjectId = #{subjectid,jdbcType=INTEGER},
+      chapterId = #{chapterid,jdbcType=INTEGER},
+      chapterName = #{chaptername,jdbcType=VARCHAR},
+      type1 = #{type1,jdbcType=VARCHAR},
+      type2 = #{type2,jdbcType=VARCHAR},
+      type3 = #{type3,jdbcType=VARCHAR},
+      type4 = #{type4,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+  <select id="selectRandomText" resultType="com.exam.pojo.Text">
+  	select * from text 
+	where Tex_id = #{0} and subjectId = #{1}
+	ORDER BY  RAND() limit #{2}
+  </select>
+</mapper>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.exam.mapper.PublishexamMapper" >
+  <resultMap id="BaseResultMap" type="com.exam.pojo.Publishexam" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="admin_id" property="adminId" jdbcType="VARCHAR" />
+    <result column="publishTime" property="publishtime" jdbcType="TIMESTAMP" />
+    <result column="subject_id" property="subjectId" jdbcType="INTEGER" />
+    <result column="examTime" property="examtime" jdbcType="TIMESTAMP" />
+    <result column="examType" property="examtype" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="INTEGER" />
+    <result column="admin_name" property="adminName" jdbcType="VARCHAR" />
+    <result column="subject_name" property="subjectName" jdbcType="VARCHAR" />
+    <result column="examlength" property="examlength" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.exam.pojo.PublishexamWithBLOBs" extends="BaseResultMap" >
+    <result column="description" property="description" jdbcType="LONGVARCHAR" />
+    <result column="exam" property="exam" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, admin_id, publishTime, subject_id, examTime, examType, STATUS, admin_name, subject_name, 
+    examlength
+  </sql>
+  <sql id="Blob_Column_List" >
+    description, exam
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.exam.pojo.PublishexamExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from publishexam
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.exam.pojo.PublishexamExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from publishexam
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from publishexam
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from publishexam
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.exam.pojo.PublishexamExample" >
+    delete from publishexam
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.exam.pojo.PublishexamWithBLOBs" >
+    insert into publishexam (id, admin_id, publishTime, 
+      subject_id, examTime, examType, 
+      STATUS, admin_name, subject_name, 
+      examlength, description, exam
+      )
+    values (#{id,jdbcType=INTEGER}, #{adminId,jdbcType=VARCHAR}, #{publishtime,jdbcType=TIMESTAMP}, 
+      #{subjectId,jdbcType=INTEGER}, #{examtime,jdbcType=TIMESTAMP}, #{examtype,jdbcType=VARCHAR}, 
+      #{status,jdbcType=INTEGER}, #{adminName,jdbcType=VARCHAR}, #{subjectName,jdbcType=VARCHAR}, 
+      #{examlength,jdbcType=INTEGER}, #{description,jdbcType=LONGVARCHAR}, #{exam,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.exam.pojo.PublishexamWithBLOBs" >
+    insert into publishexam
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="adminId != null" >
+        admin_id,
+      </if>
+      <if test="publishtime != null" >
+        publishTime,
+      </if>
+      <if test="subjectId != null" >
+        subject_id,
+      </if>
+      <if test="examtime != null" >
+        examTime,
+      </if>
+      <if test="examtype != null" >
+        examType,
+      </if>
+      <if test="status != null" >
+        STATUS,
+      </if>
+      <if test="adminName != null" >
+        admin_name,
+      </if>
+      <if test="subjectName != null" >
+        subject_name,
+      </if>
+      <if test="examlength != null" >
+        examlength,
+      </if>
+      <if test="description != null" >
+        description,
+      </if>
+      <if test="exam != null" >
+        exam,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="adminId != null" >
+        #{adminId,jdbcType=VARCHAR},
+      </if>
+      <if test="publishtime != null" >
+        #{publishtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="subjectId != null" >
+        #{subjectId,jdbcType=INTEGER},
+      </if>
+      <if test="examtime != null" >
+        #{examtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="examtype != null" >
+        #{examtype,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="adminName != null" >
+        #{adminName,jdbcType=VARCHAR},
+      </if>
+      <if test="subjectName != null" >
+        #{subjectName,jdbcType=VARCHAR},
+      </if>
+      <if test="examlength != null" >
+        #{examlength,jdbcType=INTEGER},
+      </if>
+      <if test="description != null" >
+        #{description,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="exam != null" >
+        #{exam,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.exam.pojo.PublishexamExample" resultType="java.lang.Integer" >
+    select count(*) from publishexam
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update publishexam
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.adminId != null" >
+        admin_id = #{record.adminId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.publishtime != null" >
+        publishTime = #{record.publishtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.subjectId != null" >
+        subject_id = #{record.subjectId,jdbcType=INTEGER},
+      </if>
+      <if test="record.examtime != null" >
+        examTime = #{record.examtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.examtype != null" >
+        examType = #{record.examtype,jdbcType=VARCHAR},
+      </if>
+      <if test="record.status != null" >
+        STATUS = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.adminName != null" >
+        admin_name = #{record.adminName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.subjectName != null" >
+        subject_name = #{record.subjectName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.examlength != null" >
+        examlength = #{record.examlength,jdbcType=INTEGER},
+      </if>
+      <if test="record.description != null" >
+        description = #{record.description,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="record.exam != null" >
+        exam = #{record.exam,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update publishexam
+    set id = #{record.id,jdbcType=INTEGER},
+      admin_id = #{record.adminId,jdbcType=VARCHAR},
+      publishTime = #{record.publishtime,jdbcType=TIMESTAMP},
+      subject_id = #{record.subjectId,jdbcType=INTEGER},
+      examTime = #{record.examtime,jdbcType=TIMESTAMP},
+      examType = #{record.examtype,jdbcType=VARCHAR},
+      STATUS = #{record.status,jdbcType=INTEGER},
+      admin_name = #{record.adminName,jdbcType=VARCHAR},
+      subject_name = #{record.subjectName,jdbcType=VARCHAR},
+      examlength = #{record.examlength,jdbcType=INTEGER},
+      description = #{record.description,jdbcType=LONGVARCHAR},
+      exam = #{record.exam,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update publishexam
+    set id = #{record.id,jdbcType=INTEGER},
+      admin_id = #{record.adminId,jdbcType=VARCHAR},
+      publishTime = #{record.publishtime,jdbcType=TIMESTAMP},
+      subject_id = #{record.subjectId,jdbcType=INTEGER},
+      examTime = #{record.examtime,jdbcType=TIMESTAMP},
+      examType = #{record.examtype,jdbcType=VARCHAR},
+      STATUS = #{record.status,jdbcType=INTEGER},
+      admin_name = #{record.adminName,jdbcType=VARCHAR},
+      subject_name = #{record.subjectName,jdbcType=VARCHAR},
+      examlength = #{record.examlength,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.exam.pojo.PublishexamWithBLOBs" >
+    update publishexam
+    <set >
+      <if test="adminId != null" >
+        admin_id = #{adminId,jdbcType=VARCHAR},
+      </if>
+      <if test="publishtime != null" >
+        publishTime = #{publishtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="subjectId != null" >
+        subject_id = #{subjectId,jdbcType=INTEGER},
+      </if>
+      <if test="examtime != null" >
+        examTime = #{examtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="examtype != null" >
+        examType = #{examtype,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        STATUS = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="adminName != null" >
+        admin_name = #{adminName,jdbcType=VARCHAR},
+      </if>
+      <if test="subjectName != null" >
+        subject_name = #{subjectName,jdbcType=VARCHAR},
+      </if>
+      <if test="examlength != null" >
+        examlength = #{examlength,jdbcType=INTEGER},
+      </if>
+      <if test="description != null" >
+        description = #{description,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="exam != null" >
+        exam = #{exam,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.exam.pojo.PublishexamWithBLOBs" >
+    update publishexam
+    set admin_id = #{adminId,jdbcType=VARCHAR},
+      publishTime = #{publishtime,jdbcType=TIMESTAMP},
+      subject_id = #{subjectId,jdbcType=INTEGER},
+      examTime = #{examtime,jdbcType=TIMESTAMP},
+      examType = #{examtype,jdbcType=VARCHAR},
+      STATUS = #{status,jdbcType=INTEGER},
+      admin_name = #{adminName,jdbcType=VARCHAR},
+      subject_name = #{subjectName,jdbcType=VARCHAR},
+      examlength = #{examlength,jdbcType=INTEGER},
+      description = #{description,jdbcType=LONGVARCHAR},
+      exam = #{exam,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.exam.pojo.Publishexam" >
+    update publishexam
+    set admin_id = #{adminId,jdbcType=VARCHAR},
+      publishTime = #{publishtime,jdbcType=TIMESTAMP},
+      subject_id = #{subjectId,jdbcType=INTEGER},
+      examTime = #{examtime,jdbcType=TIMESTAMP},
+      examType = #{examtype,jdbcType=VARCHAR},
+      STATUS = #{status,jdbcType=INTEGER},
+      admin_name = #{adminName,jdbcType=VARCHAR},
+      subject_name = #{subjectName,jdbcType=VARCHAR},
+      examlength = #{examlength,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+    
+  <select id="selectRandomText" resultType="com.exam.pojo.Text">
+  	select * from text 
+	where Tex_id = #{0} and subjectId = #{1}
+	ORDER BY  RAND() limit #{2}
+  </select>
+  
+  
+</mapper>

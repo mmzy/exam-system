@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;exam-pojo&apos;&#x0D;&#x0A;- Original project: &apos;exam-pojo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.exam.pojo.Medicine.java&#x0D;&#x0A;     com.exam.pojo.MedicineExample.java&#x0D;&#x0A;     com.exam.pojo.MedicineWithBLOBs.java" description="Delete elements" element1="/src\/main\/java&lt;com.exam.pojo{Medicine.java" element2="/src\/main\/java&lt;com.exam.pojo{MedicineExample.java" element3="/src\/main\/java&lt;com.exam.pojo{MedicineWithBLOBs.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1558791063566" subPackages="false" version="1.0"/>
+</session>

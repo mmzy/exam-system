@@ -1,0 +1,5 @@
+package com.exam.pojo.util;
+
+public class BeanTextModel {
+
+}
