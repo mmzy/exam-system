@@ -2,5 +2,6 @@ D:\code_zyy\exam-system\exam-student\src\main\java\com\exam\controller\IndexCont
 D:\code_zyy\exam-system\exam-student\src\main\java\com\exam\controller\ExamController.java
 D:\code_zyy\exam-system\exam-student\src\main\java\com\exam\controller\StudentScoreController.java
 D:\code_zyy\exam-system\exam-student\src\main\java\com\exam\controller\WrongBankController.java
+D:\code_zyy\exam-system\exam-student\src\main\java\com\exam\controller\HtmlController.java
 D:\code_zyy\exam-system\exam-student\src\main\java\com\exam\interceptor\LoginInterceptor.java
 D:\code_zyy\exam-system\exam-student\src\main\java\com\exam\controller\StudentController.java

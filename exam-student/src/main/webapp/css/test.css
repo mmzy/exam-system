@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.top {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background-color: rgb(3, 102, 105);
+}
+.top-icon {
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+	background-image: url('../images/newh/logo.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.top-title {
+    position: relative;
+    top: -15px;
+    font-size: 30px;
+    color: #fff;
+}
+.middle {
+    position: relative;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    width: 100%;
+    height: 100px;
+    border-bottom: solid 1px rgb(64, 4, 231);
+}
+.mpic {
+    position: relative;
+    float: left;
+    top: 4px;
+    margin-left: 10px;
+    width: 80px;
+    height: 90px;
+    border: solid 1px #000;
+}
+.minfo {
+    position: relative;
+    float: left;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.minfo-name {
+    font-weight: bold;
+}
+.mtime {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 120px;
+    height: 100%;
+}
+.remain-time {
+    position: relative;
+    width: 100%;
+    height: 35px;
+}
+.remain-time span {
+    display: inline-block;
+    width: 45px;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    border-radius: 4px;
+    background-color: gray;
+}
+.remain-time .remain-time-colon {
+    width: 20px;
+    color: gray;
+    background-color: #fff;
+}
+.remain-time-label {
+    position: relative;
+    width: 100%;
+    height: 25px;
+}
+.remain-time-label span {
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+#ok {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: rgb(3, 102, 105);
+    cursor: pointer;
+}
+.bottom {
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 160px);
+    /* border: solid 1px #000; */
+}
+.bottom-left {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 20%;
+    height: 100%;
+    border: solid 2px gray;
+}
+.single {
+    position: relative;
+    width: 100%;
+}
+.judge {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+}
+.ques-title {
+    width: 100%;
+    height: 20px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #000;
+    background-color: rgba(128, 128, 128, 0.747);
+}
+.ques-index {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    margin-top: 5px;
+    margin-bottom: 5p;
+    width: 100%;
+}
+.ques-index-item {
+    display: inline-block;
+    margin-top: 2px;
+    margin-right: 5px;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.ques-index-item:hover {
+    background-color: yellow;
+}
+.bottom-right {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 79%;
+    height: 100%;
+    /* border: solid 1px black; */
+}
+.br-top {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+}
+.br-top-title {
+    font-weight: bold;
+}
+#mark {
+    margin-left: 40%;
+}
+.br-icon {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+	background-image: url('../images/newh/calen.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.br-main {
+    position: relative;
+    padding: 6px;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: rgb(218, 230, 230);
+    overflow-y: auto;
+}
+.br-main::before {
+    position: relative;
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 50px;
+    top: -45px;
+    left: -45px;
+    transform: rotate(45deg);
+    background-color: rgb(3, 102, 105);
+}
+.br-main-index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.br-main-ques-container {
+    position: relative;
+    margin-top: -80px;
+    left: 50px;
+    width: 90%;
+    height: 120px;
+    /* border: solid 1px red; */
+    overflow-y: auto;
+}
+.br-main-ques {
+    width: 100%;
+    text-indent: 30px;
+}
+.br-main-asw-title {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.br-main-asw-content {
+    position: relative;
+    width: 94%;
+    height: calc(100% - 160px);
+    margin-left: 6%;
+    /* border: solid 1px red; */
+}
+.br-bottom {
+    padding-top: 5px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.br-bottom .btn {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background-color: rgb(3, 102, 105);
+    cursor: pointer;
+}

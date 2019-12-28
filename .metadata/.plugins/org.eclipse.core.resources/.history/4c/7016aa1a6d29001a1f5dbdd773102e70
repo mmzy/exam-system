@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/home.css" type="text/css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="title">
+        <i></i>
+        <span>湖南省安全生产培训理论考试平台</span>
+      </div>
+      <div class="panel">
+        <div class="posi-label">座位号</div>
+        <div class="posi-num">001</div>
+        <div class="enter-btn" onClick="Home.clickEnter()">进入系统</div>
+      </div>
+      <div class="footer">
+        <p>湖南省应急管理厅</p>
+        <p>？？市广联科技有限公司</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/home.js"></script>
+  </body>
+</html>

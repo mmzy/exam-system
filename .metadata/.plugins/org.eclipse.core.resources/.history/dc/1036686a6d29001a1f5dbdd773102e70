@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/monitor.css" type="text/css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="left">
+        <div class="left-title">考试平台</div>
+        <div class="test-grid">
+          <table class="exam-table">
+              <thead>
+                <tr><td>姓名</td><td>准考证</td><td>状态</td></tr>
+              </thead>
+              <tbody id="exam-body">
+              </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="top">
+        <span class="top-title">长沙煤矿安全技术培训中心</span>
+        <span class="top-name">刘琛</span>
+        <span class="top-role">[考官]</span>
+        <i class="logout-icon" onClick="Monitor.doLogout()"></i>
+        <span class="logout" onClick="Monitor.doLogout()">退出</span>
+      </div>
+      <div class="main" id="main">
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/monitor.js"></script>
+  </body>
+</html>

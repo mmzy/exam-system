@@ -59,6 +59,14 @@
                         		onclick="showLayer('${publishExam.subjectName }考试','<%=path%>/exam/exam?id=${publishExam.id }')">
                         		开始考试
                         </button>
+                        <button class="btn size-MINI radius"
+                        		onclick="showLayer('${publishExam.subjectName }自动阅卷','<%=path%>/exam/exam?id=${publishExam.id }')">
+                        		自动阅卷
+                        </button>
+                        <button class="btn size-MINI radius"
+                        		onclick="showLayer('${publishExam.subjectName }错题','<%=path%>/wrongBank/wrongs?id=${publishExam.id }')">
+                        		查看错题
+                        </button>
                     </td>
                 </tr>
             </c:forEach>

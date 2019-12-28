@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/login.css" type="text/css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="title">
+        <i></i>
+        <span>湖南省安全生产培训理论考试平台</span>
+      </div>
+      <div class="sit-number">
+          <span>座位号：</span>
+          <span>003</span>
+      </div>
+      <div class="panel">
+        <div class="avtar"></div>
+        <div class="examinee-info">
+            <table>
+                <tbody>
+                    <tr><td class="labelname">考生姓名：</td><td>测试</td></tr>
+                    <tr><td class="labelname">准考证号：</td><td>102180</td></tr>
+                    <tr><td class="labelname">身份证号：</td><td>123456789012345678</td></tr>
+                    <tr><td class="labelname">人员类别：</td><td>特种作业人员</td></tr>
+                    <tr><td class="labelname">考试科目：</td><td>高压电工作业</td></tr>
+                </tbody>
+            </table>
+            <div class="enter-btn" onClick="Login.clickEnter()">确认登录</div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>湖南省应急管理厅</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+  </body>
+</html>

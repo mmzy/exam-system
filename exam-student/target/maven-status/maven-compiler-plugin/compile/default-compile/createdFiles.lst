@@ -1,5 +1,6 @@
 com\exam\controller\IndexController.class
 com\exam\interceptor\LoginInterceptor.class
+com\exam\controller\HtmlController.class
 com\exam\controller\StudentController.class
 com\exam\controller\StudentScoreController.class
 com\exam\controller\WrongBankController.class
