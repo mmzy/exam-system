@@ -13,7 +13,6 @@ INDEX VERSION 1.127+D:\code_zyy\exam-system\.metadata\.plugins\org.eclipse.jdt.c
 4147427367.index
 2428272622.index
 1597027194.index
-3031721783.index
 3405292299.index
 2438053716.index
 2653919674.index

@@ -68,21 +68,6 @@ public class TextController {
 		return "/text/add";
 	}
 	
-	@RequestMapping(value="/batchAdd", method=RequestMethod.GET)
-	public String batchAddTextView(HttpServletRequest request,Model model){
-		
-		HttpSession session = request.getSession();
-		Teacher teacher = (Teacher) session.getAttribute("teacherInfo");
-		List<Subject> textList = subjectService.showList(teacher.getId());
-		Subject subject = textList.get(0);
-		List<Chapter> chapterList = chapterService.getChapter(subject.getId());
-		List<Textmodel> textModelList = textModelService.showList();
-		model.addAttribute("textList", textList);
-		model.addAttribute("textModelList", textModelList);
-		model.addAttribute("chapterList", chapterList);
-		return "/text/batchAdd";
-	}
-	
 	@RequestMapping(value="/add", method=RequestMethod.POST)
 	@ResponseBody
 	public AjaxResult addText(Text text){
@@ -101,6 +86,21 @@ public class TextController {
 		
 		textService.insert(text);
 		return AjaxResult.successInstance("添加成功");
+	}
+	
+	@RequestMapping(value="/batchAdd", method=RequestMethod.GET)
+	public String batchAddTextView(HttpServletRequest request,Model model){
+		
+		HttpSession session = request.getSession();
+		Teacher teacher = (Teacher) session.getAttribute("teacherInfo");
+		List<Subject> textList = subjectService.showList(teacher.getId());
+		Subject subject = textList.get(0);
+		List<Chapter> chapterList = chapterService.getChapter(subject.getId());
+		List<Textmodel> textModelList = textModelService.showList();
+		model.addAttribute("textList", textList);
+		model.addAttribute("textModelList", textModelList);
+		model.addAttribute("chapterList", chapterList);
+		return "/text/batchAdd";
 	}
 	
 	@RequestMapping(value="/batchAdd", method=RequestMethod.POST)

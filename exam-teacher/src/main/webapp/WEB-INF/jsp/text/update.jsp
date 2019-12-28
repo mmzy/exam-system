@@ -58,21 +58,27 @@
 	
 	<!-- 当是选择题时出现选择题ABCD框，否则不显示 -->
 	<script type="text/javascript">
+	function changeQuesView(model) {
+		if(model == "选择题" || model == "单选题") {
+			$("#type1,#type2,#type3,#type4").show();
+			$("#type5,#type6,#type7").hide();
+		} else if(model == "多选题"){
+			$("#type1,#type2,#type3,#type4").show();
+			$("#type5,#type6,#type7").show();
+		} else {
+			$("#type1,#type2,#type3,#type4").hide();
+			$("#type5,#type6,#type7").hide();
+		}
+	}
 		//初始情况
 		$(function(){
 			var model = $("#texId option:selected").text();
-			if (model != "选择题"){
-				$("#type1,#type2,#type3,#type4").hide();
-			}
+			changeQuesView(model)
 			
 			//当试题模块内容改变
 			$("#texId").change(function(){
 				var model = $("#texId option:selected").text();
-				if (model != "选择题"){
-					$("#type1,#type2,#type3,#type4").hide();
-				}else{
-					$("#type1,#type2,#type3,#type4").show();
-				}
+				changeQuesView(model)
 			})
 			
 		})
@@ -194,6 +200,30 @@
 	            </div>
 	            <div class="col-5"></div> 
 	        </div>
+	        
+	        <div class="row cl" id="type5">
+            <label class="form-label col-2">E选项</label>
+            <div class="formControls col-5">
+            	<input type="text" class="input-text" name="type5" value="${text.type1 }"/>
+            </div>
+            <div class="col-5"></div> 
+        </div>
+        
+        <div class="row cl" id="type6">
+            <label class="form-label col-2">F选项</label>
+            <div class="formControls col-5">
+            	<input type="text" class="input-text" name="type6" value="${text.type1 }"/>
+            </div>
+            <div class="col-5"></div> 
+        </div>
+        
+        <div class="row cl" id="type7">
+            <label class="form-label col-2">G选项</label>
+            <div class="formControls col-5">
+            	<input type="text" class="input-text" name="type7" value="${text.type1 }"/>
+            </div>
+            <div class="col-5"></div> 
+        </div>
         
         <div class="row cl">
             <label class="form-label col-2">答案</label>

@@ -96,7 +96,7 @@
 
         <div class="row cl">
             <label class="form-label col-2">试题模块</label>
-            <div class="formControls col-5">
+            <div class="formControls col-8">
             <c:forEach items="${textModelList }" var="textModel" varStatus="vs">
                 
 							<input name="listTextModel[${vs.count }].textModelId" value="${textModel.id }" type="hidden" />
