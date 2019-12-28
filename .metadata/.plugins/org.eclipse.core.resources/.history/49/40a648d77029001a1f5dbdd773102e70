@@ -1,0 +1,13 @@
+var Rule = {
+    init: function() {
+        setInterval(function() {
+        	
+        },1000);
+    }
+};
+
+$(function() {
+    (function(_r) {
+        _r.init()
+    })(Rule);
+})

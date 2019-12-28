@@ -28,7 +28,7 @@
   <div class="content">
     <div class="title">
       <div>考场须知</div>
-      <div class="subtitle">请仔细阅读(19秒)</div>
+      <div class="subtitle">请仔细阅读(<span id="timerCount">19</span>秒)</div>
     </div>
     <div class="panel">
       <p>一、考生进入考场禁止携带各种参考资料和通讯工具，考场内已开启视频监控。</p>
@@ -46,6 +46,7 @@
       </p>
       <p>八、考试结束后，考生不得在考场内逗留、交谈，不得再返回考场。</p>
     </div>
+  	<div id="enter-btn" onClick="Rule.clickEnter()">确认继续</div>
   </div>
 </body>
 </html>

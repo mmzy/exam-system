@@ -44,6 +44,7 @@ public class StudentController {
 			HttpSession session = request.getSession();
 			session.setAttribute("studentInfo", student);
 			return "redirect:/index";
+//			return "redirect:/html/home";
 		}
 		model.addAttribute("message", "用户名或密码错误!");
 		return "/student/login";

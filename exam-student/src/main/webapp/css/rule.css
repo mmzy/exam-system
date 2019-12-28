@@ -37,3 +37,19 @@
     line-height: 30px;
     text-indent: -2em;
 }
+
+#enter-btn {
+ 	display: none;
+	position: relative;
+	left: 50%;
+	margin-top: 30px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	border-radius: 8px;
+	transform: translateX(-50%);
+	background-color: rgba(0, 225, 255, 0.719);
+	cursor: pointer;
+}

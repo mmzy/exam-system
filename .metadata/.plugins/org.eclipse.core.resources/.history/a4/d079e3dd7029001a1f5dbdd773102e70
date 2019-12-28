@@ -1,0 +1,17 @@
+var timer = null;
+var count = 19;
+
+var Rule = {
+	
+    init: function() {
+        setInterval(function() {
+        	
+        },1000);
+    }
+};
+
+$(function() {
+    (function(_r) {
+        _r.init()
+    })(Rule);
+})

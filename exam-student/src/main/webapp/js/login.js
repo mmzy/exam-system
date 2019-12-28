@@ -3,7 +3,8 @@ var Login = {
         
     },
     clickEnter: function() {
-        alert('确认登录')
+//        alert('确认登录')
+    	window.location.href = '/html/rule';
     }
 };
 

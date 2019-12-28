@@ -3,7 +3,7 @@ var Home = {
         
     },
     clickEnter: function() {
-        alert('enter system')
+    	window.location.href = '/html/login';
     }
 };
 

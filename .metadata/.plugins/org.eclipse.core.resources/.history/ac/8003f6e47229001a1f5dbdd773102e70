@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(101, 206, 241); */
+    overflow: hidden;
+}
+.title {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+.subtitle {
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: gray;
+}
+.panel {
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    width: 80%;
+    transform: translateX(-50%);
+    /* background-color: lightcyan; */
+}
+.panel p {
+    margin-left: 2em;
+    line-height: 30px;
+    text-indent: -2em;
+}
+
+#enter-btn {
+/* 	display: none; */
+	position: relative;
+	left: 50%;
+	margin-top: 30px;
+	width: 100px;
+	height: 40px;
+	border-radius: 8px;
+	transform: translateX(-50%);
+	background-color: blue;
+}
