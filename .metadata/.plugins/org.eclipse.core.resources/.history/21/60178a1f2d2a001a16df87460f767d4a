@@ -206,17 +206,14 @@
 			    				
 			    				<tr>
 			    					<td height="32" colspan="3" bgcolor="#CCCCCC">选择题答案：
-			    					A<input type="checkbox" name="examList[${vs.count }].answer" value="A" />
-			    					B<input type="checkbox" name="examList[${vs.count }].answer" value="B" />
-			    					C<input type="checkbox" name="examList[${vs.count }].answer" value="C" />
-			    					D<input type="checkbox" name="examList[${vs.count }].answer" value="D" />
-			    					E<input type="checkbox" name="examList[${vs.count }].answer" value="E" />
-			    					F<input type="checkbox" name="examList[${vs.count }].answer" value="F" />
-			    					G<input type="checkbox" name="examList[${vs.count }].answer" value="G" />
+			    					A<input type="radio" name="examList[${vs.count }].answer" value="A" />
+			    					B<input type="radio" name="examList[${vs.count }].answer" value="B" />
+			    					C<input type="radio" name="examList[${vs.count }].answer" value="C" />
+			    					D<input type="radio" name="examList[${vs.count }].answer" value="D" />
 			    					</td>
 			    				</tr>
 		    				</c:if>
-		    				<c:if test="${texts.texId != 1 and texts.texId != 2 and texts.texId != 8 }">
+		    				<c:if test="${texts.texId != 1 and texts.texId != 2 }">
 		    				   <c:choose  >
 		    				   <c:when test="${texts.texId == 7}">
 			    				<tr>				

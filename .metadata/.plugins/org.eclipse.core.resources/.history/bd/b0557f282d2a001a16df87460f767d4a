@@ -216,7 +216,7 @@
 			    					</td>
 			    				</tr>
 		    				</c:if>
-		    				<c:if test="${texts.texId != 1 and texts.texId != 2 and texts.texId != 8 }">
+		    				<c:if test="${texts.texId != 1 and texts.texId != 2 }">
 		    				   <c:choose  >
 		    				   <c:when test="${texts.texId == 7}">
 			    				<tr>				

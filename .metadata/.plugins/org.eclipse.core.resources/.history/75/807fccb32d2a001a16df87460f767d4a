@@ -158,7 +158,7 @@
 			    					</td>
 			    				</tr>
 		    				</c:if>
-		    				<c:if test="${texts.texId == 1 }">
+		    				<%-- <c:if test="${texts.texId == 1 }">
 			    				<tr>
 			    					<td colspan="3"><strong>A.</strong>${texts.type1 }</td>
 			    				</tr>
@@ -180,8 +180,8 @@
 			    					D<input type="radio" name="examList[${vs.count }].answer" value="D" />
 			    					</td>
 			    				</tr>
-		    				</c:if>
-		    				<c:if test="${texts.texId == 8 }">
+		    				</c:if> --%>
+		    				<c:if test="${texts.texId == 1 }">
 			    				<tr>
 			    					<td colspan="3"><strong>A.</strong>${texts.type1 }</td>
 			    				</tr>
@@ -216,7 +216,7 @@
 			    					</td>
 			    				</tr>
 		    				</c:if>
-		    				<c:if test="${texts.texId != 1 and texts.texId != 2 and texts.texId != 8 }">
+		    				<c:if test="${texts.texId != 1 and texts.texId != 2 }">
 		    				   <c:choose  >
 		    				   <c:when test="${texts.texId == 7}">
 			    				<tr>				
