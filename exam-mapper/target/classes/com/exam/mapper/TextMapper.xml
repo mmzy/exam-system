@@ -356,4 +356,14 @@
 	where Tex_id = #{0} and subjectId = #{1}
 	ORDER BY  RAND() limit #{2}
   </select>
+
+  <select id="selectAllSubjectJoinChapter" resultType="com.exam.pojo.Text">
+      SELECT
+          cha.sub_id as subjectid,cha.id as chapterid,sub.name as subjectname,CONCAT(cha.name,' ',cha.title) as chaptername
+      FROM
+          SUBJECT sub
+      LEFT JOIN chapter cha
+      on  sub.id = cha.sub_id
+      where cha.sub_id is not null and cha.id is not null
+  </select>
 </mapper>

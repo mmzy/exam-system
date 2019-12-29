@@ -29,4 +29,6 @@ public interface TextMapper {
     int updateByPrimaryKey(Text record);
     
     List<Text> selectRandomText(int textModelId,int subjectId, int num);
+
+    List<Text> selectAllSubjectJoinChapter();
 }

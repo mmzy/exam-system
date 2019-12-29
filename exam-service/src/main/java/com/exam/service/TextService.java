@@ -20,6 +20,10 @@ public interface TextService {
 	Text selectOne(int id);
 	//删除试题
 	void delete(int id);
+
 	List<Text> beginExam(TextModel textModel, Integer subjectId);
-	
+
+	List<Integer> batchInsert(List<Text> Texts);
+
+	List<Text> orderExcelDataToText(List<List<Object>> infos);
 }

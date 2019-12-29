@@ -1,16 +1,20 @@
 package com.exam.controller;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.exam.util.ExcelUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.exam.pojo.Chapter;
@@ -24,6 +28,7 @@ import com.exam.service.TextModelService;
 import com.exam.service.TextService;
 import com.exam.util.AjaxResult;
 import com.github.pagehelper.PageInfo;
+import org.springframework.web.multipart.MultipartFile;
 
 @Controller
 @RequestMapping("/text")
@@ -87,40 +92,17 @@ public class TextController {
 		textService.insert(text);
 		return AjaxResult.successInstance("添加成功");
 	}
-	
-	@RequestMapping(value="/batchAdd", method=RequestMethod.GET)
-	public String batchAddTextView(HttpServletRequest request,Model model){
-		
-		HttpSession session = request.getSession();
-		Teacher teacher = (Teacher) session.getAttribute("teacherInfo");
-		List<Subject> textList = subjectService.showList(teacher.getId());
-		Subject subject = textList.get(0);
-		List<Chapter> chapterList = chapterService.getChapter(subject.getId());
-		List<Textmodel> textModelList = textModelService.showList();
-		model.addAttribute("textList", textList);
-		model.addAttribute("textModelList", textModelList);
-		model.addAttribute("chapterList", chapterList);
-		return "/text/batchAdd";
-	}
-	
-	@RequestMapping(value="/batchAdd", method=RequestMethod.POST)
-	@ResponseBody
-	public AjaxResult batchAddText(Text text){
-		
-		Integer chapterid = text.getChapterid();
-		Chapter chapter = chapterService.selectOne(chapterid);
-		text.setChaptername(chapter.getName()+"   "+chapter.getTitle());
-		
-		Integer subjectid = text.getSubjectid();
-		Subject subject = subjectService.selectOne(subjectid);
-		text.setSubjectname(subject.getName());
-		
-		Integer texId = text.getTexId();
-		Textmodel textmodel = textModelService.selectOne(texId);
-		text.setModelname(textmodel.getTexttype());
-		
-		textService.insert(text);
-		return AjaxResult.successInstance("添加成功");
+
+	@RequestMapping(value="/batchAdd")
+	public AjaxResult batchAdd(@RequestParam("file") MultipartFile file) throws Exception{
+		List<List<Object>> infos = ExcelUtils.readExcelContent(file.getInputStream());
+		List<Text> texts = textService.orderExcelDataToText(infos);
+		List<Integer> failLists = textService.batchInsert(texts);
+		if(failLists.size()==0){
+			return AjaxResult.successInstance("批量上传成功");
+		}else{
+			return AjaxResult.errorInstance(failLists);
+		}
 	}
 	
 	@RequestMapping(value="/text")

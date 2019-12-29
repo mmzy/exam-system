@@ -32,15 +32,34 @@
 <title>批量添加试题</title>
 
 <script type="text/javascript">
-function doBatch() {
-	alert('ssss')
+function importExp() {
+    var formData = new FormData();
+    var name = $("#upfile").val();
+    formData.append("file", $("#upfile")[0].files[0]);
+    formData.append("name", name);
+    $.ajax({
+        url: '/text/batchAdd',
+        type: 'POST',
+        async: false,
+        data: formData,
+        // 告诉jQuery不要去处理发送的数据
+        processData: false,
+        // 告诉jQuery不要去设置Content-Type请求头
+        contentType: false,
+        beforeSend: function() {
+            console.log("正在进行，请稍候");
+        },
+        success: function(res) {
+            console.log(res)
+        }
+    });
 }
 </script>
 
 </head>
 <body>
 <div class="pd-20">
-	<form method="post" onsubmit="ajaxSubmitForm(this, true)" action="<%=path %>/text/batchAdd" enctype="multipart/form-data">
+	<%-- <form method="post" onsubmit="ajaxSubmitForm(this, true)" action="<%=path %>/text/batchAdd" enctype="multipart/form-data">
 		<div class="row cl">
 	       <div class="col-9 col-offset-2">
 			    <input type="file" value="选择文件" name="uploadFile" />
@@ -49,7 +68,10 @@ function doBatch() {
 			    <input class="btn btn-default radius" type="button" value="关闭" onclick="parent.location.reload()" style="margin-left: 30px;" />
 	       </div>
 	   </div>
-	</form>
+	</form> --%>
+	
+	<input type="file" id="upfile" name="upfile" placeholder="" />
+	<button onclick="importExp()">导入</button>
 </div>
 </body>
 </html>

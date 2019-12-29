@@ -48,7 +48,7 @@
   </div>
   <script type="text/javascript">
   var timer = null;
-  var count = 3;
+  var count = 19;
   var examId = "${publishexam.id}"
   
   function init() {
