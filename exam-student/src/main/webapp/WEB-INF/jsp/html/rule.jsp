@@ -19,16 +19,14 @@
 <script type="text/javascript" src="<%=path%>/js/H-ui.js"></script> 
 <script type="text/javascript" src="<%=path%>/js/H-ui.admin.js"></script> 
 <script type="text/javascript" src="<%=path%>/js/common.js"></script>
-<script type="text/javascript" src="<%=path%>/js/rule.js"></script>
-
-<link href="<%=path%>/skin/default/skin.css" rel="stylesheet" type="text/css" id="skin" />
 <title>在线考试后台管理系统</title>
 </head>
+
 <body>
   <div class="content">
     <div class="title">
       <div>考场须知</div>
-      <div class="subtitle">请仔细阅读(<span id="timerCount">19</span>秒)</div>
+      <div class="subtitle">请仔细阅读(<span id="timerCount"></span>秒)</div>
     </div>
     <div class="panel">
       <p>一、考生进入考场禁止携带各种参考资料和通讯工具，考场内已开启视频监控。</p>
@@ -46,7 +44,33 @@
       </p>
       <p>八、考试结束后，考生不得在考场内逗留、交谈，不得再返回考场。</p>
     </div>
-  	<div id="enter-btn" onClick="Rule.clickEnter()">确认继续</div>
+  	<div id="enter-btn" onClick="ruleClickEnter()">开始答题</div>
   </div>
+  <script type="text/javascript">
+  var timer = null;
+  var count = 3;
+  var examId = "${publishexam.id}"
+  
+  function init() {
+	$("#timerCount").html(count);
+    timer = setInterval(function() {
+    	count--;
+    	$("#timerCount").html(count);
+    	if(count == 0) {
+    		clearInterval(timer)
+    		$("#enter-btn").show();
+    	}
+    },1000);
+  }
+
+  function ruleClickEnter() {
+  	window.location.href = "/exam/exam?id=" + examId;
+  }
+
+  $(function() {
+      init()
+  })
+  </script>
 </body>
+
 </html>

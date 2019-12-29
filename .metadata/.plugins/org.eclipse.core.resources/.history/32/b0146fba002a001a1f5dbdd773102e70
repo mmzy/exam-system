@@ -1,0 +1,25 @@
+var timer = null;
+var count = 19;
+
+var Rule = {
+    init: function() {
+    	debugger
+        timer = setInterval(function() {
+        	count--;
+        	$("#timerCount").html(count);
+        	if(count == 0) {
+        		clearInterval(timer)
+        		$("#enter-btn").show();
+        	}
+        },1000);
+    },
+    clickEnter: function() {
+    	window.location.href = "/exam/exam?id=" + examId;
+    }
+};
+
+$(function() {
+    (function(_r) {
+        _r.init()
+    })(Rule);
+})

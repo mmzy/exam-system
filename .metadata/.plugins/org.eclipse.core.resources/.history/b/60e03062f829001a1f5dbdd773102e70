@@ -1,0 +1,22 @@
+var publishExam = '${publishExam}';
+var studentInfo = '${studentInfo}';
+
+
+var Home = {
+    init: function() {
+    	debugger
+    	console.log('publishExam home: ', publishExam);
+    	console.log('studentInfo home: ', studentInfo);
+    },
+    clickEnter: function() {
+    	sessionStorage.setItem('publishExam', JSON.stringify(publishExam));
+    	sessionStorage.setItem('studentInfo', JSON.stringify(studentInfo));
+    	window.location.href = '/html/login';
+    }
+};
+
+$(function() {
+    (function(_h) {
+        _h.init()
+    })(Home);
+})

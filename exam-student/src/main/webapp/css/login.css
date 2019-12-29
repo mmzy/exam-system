@@ -11,7 +11,7 @@
 }
 .title {
     position: relative;
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
     height: 50px;
     font-size: 30px;
@@ -32,7 +32,7 @@
     top: -13px;
 }
 .sit-number {
-    margin-top: 15px;
+    margin-top: 0px;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -75,7 +75,7 @@ tr {
     width: 100%;
     height: 40px;
     /* left: 20%; */
-    top: 20px;
+    /* top: 20px; */
     line-height: 40px;
     text-align: center;
     color: #fff;

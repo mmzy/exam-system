@@ -1,0 +1,18 @@
+var publishExam = null;
+var studentInfo = null;
+
+var Login = {
+    init: function() {
+        var 
+    },
+    clickEnter: function() {
+//        alert('确认登录')
+    	window.location.href = '/html/rule';
+    }
+};
+
+$(function() {
+    (function(_l) {
+        _l.init()
+    })(Login);
+})

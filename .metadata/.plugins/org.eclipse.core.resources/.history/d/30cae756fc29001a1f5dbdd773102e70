@@ -1,0 +1,16 @@
+var Home = {
+//    init: function() {
+//    	
+//    },
+    clickEnter: function() {
+    	sessionStorage.setItem('publishExam', JSON.stringify(publishExam));
+    	sessionStorage.setItem('studentInfo', JSON.stringify(studentInfo));
+    	window.location.href = '/html/login';
+    }
+};
+
+//$(function() {
+//    (function(_h) {
+//        _h.init()
+//    })(Home);
+//})

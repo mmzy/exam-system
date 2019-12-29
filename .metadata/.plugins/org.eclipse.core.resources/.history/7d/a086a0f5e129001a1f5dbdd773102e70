@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(101, 206, 241);
+    overflow: hidden;
+}
+.title {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .5em;
+}
+.title i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+	background-image: url('../images/newh/logo.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.title span {
+    position: relative;
+    top: -13px;
+}
+.sit-number {
+    margin-top: 15px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.panel {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    transform: translateX(-50%);
+    background-color: lightcyan;
+}
+.avtar {
+    position: relative;
+    width: 30%;
+    height: 65%;
+    border: solid 1px red;
+}
+.examinee-info {
+    position: relative;
+    width: 50%;
+    height: 65%;
+    /* border: solid 1px red; */
+}
+tr {
+    line-height: 30px;
+}
+.labelname {
+    font-weight: bold;
+}
+.enter-btn {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    /* left: 20%; */
+    top: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background-color: rgba(0, 225, 255, 0.719);
+    cursor: pointer;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: blue;
+}

@@ -11,14 +11,14 @@
 }
 .title {
     position: relative;
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
     height: 80px;
     font-size: 30px;
     text-align: center;
 }
 .subtitle {
-    margin-top: 10px;
+    margin-top: 6px;
     height: 30px;
     line-height: 30px;
     font-size: 14px;
@@ -26,7 +26,7 @@
 }
 .panel {
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
     left: 50%;
     width: 80%;
     transform: translateX(-50%);
@@ -42,7 +42,7 @@
  	display: none;
 	position: relative;
 	left: 50%;
-	margin-top: 30px;
+	margin-top: 20px;
 	width: 100px;
 	height: 40px;
 	line-height: 40px;

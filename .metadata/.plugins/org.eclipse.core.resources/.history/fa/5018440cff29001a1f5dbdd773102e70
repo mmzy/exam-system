@@ -1,0 +1,28 @@
+var publishExam = null;
+var studentInfo = null;
+
+var Login = {
+    init: function() {
+    	publishExam = sessionStorage.getItem('publishExam');
+        if(publishExam) {
+        	publishExam = JSON.parse(publishExam);
+        }
+        console.log('publishExam login: ', publishExam)
+        
+        studentInfo = sessionStorage.getItem('studentInfo');
+        if(studentInfo) {
+        	studentInfo = JSON.parse(studentInfo);
+        }
+        console.log('studentInfo login: ', studentInfo)
+    },
+    clickEnter: function() {
+//        alert('确认登录')
+    	window.location.href = '/html/rule';
+    }
+};
+
+$(function() {
+    (function(_l) {
+        _l.init()
+    })(Login);
+})
