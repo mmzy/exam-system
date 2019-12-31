@@ -26472,3 +26472,808 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-12-29 15:31:23,270 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
 2019-12-29 15:31:23,274 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-29 15:31:23,275 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:41:02,442 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:41:02,444 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 15:41:02,446 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:41:02,446 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:43:40,553 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:43:40,555 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 15:43:40,587 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:43:40,588 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:43:40,588 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-teacher
+2019-12-29 15:43:40,588 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-teacher
+2019-12-29 15:43:40,597 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:43:59,093 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-pojo
+2019-12-29 15:43:59,093 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 15:44:09,579 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-mapper
+2019-12-29 15:44:09,580 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 15:44:21,665 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-common
+2019-12-29 15:44:21,665 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 15:44:26,695 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:44:26,696 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:44:26,699 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:44:26,699 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:44:47,501 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:44:47,502 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:44:47,503 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:44:47,503 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:45:39,213 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-common:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-common\pom.xml.
+2019-12-29 15:45:39,749 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:45:39,749 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:45:39,750 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:45:39,751 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:00,904 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:00,905 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:00,907 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:00,908 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:19,358 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:19,359 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:19,361 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:19,361 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:21,780 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:21,780 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:21,782 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:21,782 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:56,941 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:56,942 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 15:50:56,943 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 15:50:56,944 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 16:14:14,789 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-student
+2019-12-29 16:14:14,789 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2019-12-29 16:18:45,546 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 16:18:45,547 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 16:18:45,548 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 16:18:45,549 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 16:18:45,549 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-student
+2019-12-29 16:18:45,549 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-student
+2019-12-29 16:18:45,565 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 16:19:09,379 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 16:19:09,379 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 16:19:09,380 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 16:19:09,380 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:37:36,724 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:37:36,725 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:37:36,737 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:37:36,738 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:37:59,454 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:37:59,454 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:37:59,455 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:37:59,455 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:38:39,824 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:38:39,824 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:38:39,825 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:38:39,826 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:40:08,144 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:40:08,145 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:40:08,147 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:40:08,147 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:40:26,615 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:40:26,617 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:40:26,618 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:40:26,618 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:41:07,795 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:41:07,795 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:41:07,796 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:41:07,796 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:43:29,297 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:43:29,298 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:43:29,313 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:43:29,313 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:44:33,231 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:44:33,231 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:44:33,232 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:44:33,233 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:44:51,149 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:44:51,149 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:44:51,151 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:44:51,152 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:45:12,391 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:45:12,391 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:45:12,392 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:45:12,393 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:06,168 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:06,169 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:06,170 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:06,170 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:13,039 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:13,040 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:13,041 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:13,041 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:33,529 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:33,530 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:33,531 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:33,531 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:40,319 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:40,319 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:40,320 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:40,320 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:48,397 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:48,397 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:48,398 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:48,398 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:54,166 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:54,167 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:46:54,168 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:46:54,169 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:15,750 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:15,750 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:15,755 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:15,755 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:18,929 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:18,930 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:18,931 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:18,931 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:36,984 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:36,984 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:36,985 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:36,985 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:45,556 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:45,556 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:52:45,557 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:52:45,557 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:02,055 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:02,055 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:02,056 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:02,056 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:11,649 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:11,649 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:11,650 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:11,650 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:22,451 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:22,451 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:22,452 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:22,452 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:25,736 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:25,736 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:25,737 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:25,737 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:36,947 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:36,947 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:36,948 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:36,949 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:41,565 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:41,565 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:41,567 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:41,567 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:48,512 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:48,512 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:48,513 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:48,514 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:57,735 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:57,737 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:54:57,738 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:54:57,738 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:55:02,184 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:55:02,185 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:55:02,186 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:55:02,186 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:55:37,687 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:55:37,687 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:55:37,690 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:55:37,690 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:55:50,330 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:55:50,330 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:55:50,337 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:55:50,339 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:56:43,462 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:56:43,462 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:56:43,463 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:56:43,463 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:57:00,195 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:57:00,196 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 18:57:00,197 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 18:57:00,204 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:16,725 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:16,725 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:16,726 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:16,726 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:26,796 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:26,796 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:26,797 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:26,798 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:32,079 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:32,080 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:32,081 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:32,081 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:42,349 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:42,349 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:42,351 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:42,352 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:58,492 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:58,492 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:00:58,493 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:00:58,493 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:01:10,757 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:01:10,757 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:01:10,758 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:01:10,758 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:03:58,462 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:03:58,462 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:03:58,463 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:03:58,464 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:04:45,792 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:04:45,793 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:04:45,794 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:04:45,794 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:05:01,789 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:05:01,790 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:05:01,790 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:05:01,790 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:06:12,146 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:06:12,146 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:06:12,147 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:06:12,147 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:17:51,032 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:17:51,033 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:17:51,034 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:17:51,034 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:17:56,418 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:17:56,419 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:17:56,421 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:17:56,422 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:18:28,153 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:18:28,155 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:18:28,156 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:18:28,156 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:18:34,060 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:18:34,060 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:18:34,061 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:18:34,061 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:19:48,120 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:19:48,121 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:19:48,123 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:19:48,123 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:20:03,196 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:20:03,196 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:20:03,197 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:20:03,197 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:23:56,807 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:23:56,807 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:23:56,810 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:23:56,811 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:24:11,460 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:24:11,461 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:24:11,461 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:24:11,461 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:24:13,573 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:24:13,573 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:24:13,574 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:24:13,574 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:56:12,493 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:56:12,495 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 19:56:12,496 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:56:12,497 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:56:26,674 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-pojo
+2019-12-29 19:56:26,674 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 19:56:41,401 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:56:41,401 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:56:41,402 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:56:41,402 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:56:42,855 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-mapper
+2019-12-29 19:56:42,856 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 19:56:55,663 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-common
+2019-12-29 19:56:55,663 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 19:57:01,433 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:57:01,433 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:57:01,434 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:57:01,434 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:58:59,875 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:58:59,887 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 19:58:59,900 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:58:59,901 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:59:02,153 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:59:02,155 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 19:59:02,157 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:59:02,158 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 19:59:03,006 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:59:03,006 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 19:59:03,009 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 19:59:03,009 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:19,708 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-admin
+2019-12-29 20:00:20,879 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-student
+2019-12-29 20:00:21,239 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-teacher
+2019-12-29 20:00:22,616 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:22,616 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:22,619 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:22,620 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:25,163 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:25,164 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:25,165 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:25,165 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:25,854 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:25,855 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2019-12-29 20:00:26,021 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:26,022 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:26,927 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:26,928 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:26,929 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:26,929 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:27,915 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:27,915 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:00:27,979 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:27,980 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:27,980 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-admin
+2019-12-29 20:00:27,981 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-admin
+2019-12-29 20:00:27,989 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:29,314 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:29,315 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:00:29,359 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:29,359 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:29,359 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-student
+2019-12-29 20:00:29,359 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-student
+2019-12-29 20:00:29,363 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:29,892 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:29,893 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:00:29,952 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:00:29,953 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:00:29,953 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-teacher
+2019-12-29 20:00:29,953 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-teacher
+2019-12-29 20:00:29,958 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:02:57,274 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-common
+2019-12-29 20:02:57,274 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2019-12-29 20:03:00,595 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:03:00,604 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:03:00,606 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:03:00,606 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:03:07,571 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-common
+2019-12-29 20:03:07,571 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 20:03:12,941 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:03:12,941 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:03:12,943 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:03:12,943 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:04:36,108 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,108 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:04:36,109 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,110 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:04:36,402 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,402 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:04:36,404 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,404 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:04:36,670 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,671 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:04:36,673 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,674 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:04:36,795 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,796 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:04:36,799 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,799 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:04:36,956 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,957 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:04:36,959 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:04:36,959 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:05:58,213 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-service
+2019-12-29 20:05:58,213 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2019-12-29 20:06:09,231 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:06:09,231 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:06:09,232 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:06:09,233 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:06:36,874 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-teacher
+2019-12-29 20:06:36,874 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2019-12-29 20:12:13,500 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-12-29 20:12:15,169 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-admin:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-admin\pom.xml.
+2019-12-29 20:12:15,744 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-common:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-common\pom.xml.
+2019-12-29 20:12:15,906 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-mapper:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-mapper\pom.xml.
+2019-12-29 20:12:15,940 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: exam.qhmu:exam-parent:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-parent\pom.xml.
+2019-12-29 20:12:16,127 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-pojo:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-pojo\pom.xml.
+2019-12-29 20:12:16,273 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-service:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-service\pom.xml.
+2019-12-29 20:12:16,560 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-student:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-student\pom.xml.
+2019-12-29 20:12:16,806 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-teacher:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-teacher\pom.xml.
+2019-12-29 20:12:21,759 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-admin/src/main/java
+2019-12-29 20:12:21,760 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-admin/src/main/resources
+2019-12-29 20:12:21,761 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-admin/src/test/java
+2019-12-29 20:12:21,761 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-admin/src/test/resources
+2019-12-29 20:12:22,398 [Worker-18] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure exam-admin
+org.eclipse.m2e.wtp.MarkedException: Unable to configure exam-admin
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.0.v20150423-0755.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.0.v20150423-0755.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2019-12-29 20:12:23,402 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/main/java
+2019-12-29 20:12:23,402 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/main/resources
+2019-12-29 20:12:23,402 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/test/java
+2019-12-29 20:12:23,403 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/test/resources
+2019-12-29 20:12:23,526 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-mapper/src/main/java
+2019-12-29 20:12:23,526 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /exam-mapper/src/main/java overlaps with sources folder /exam-mapper/src/main/java
+2019-12-29 20:12:23,527 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-mapper/src/test/java
+2019-12-29 20:12:23,527 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-mapper/src/test/resources
+2019-12-29 20:12:23,863 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-pojo/src/main/java
+2019-12-29 20:12:23,863 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-pojo/src/main/resources
+2019-12-29 20:12:23,863 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-pojo/src/test/java
+2019-12-29 20:12:23,864 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-pojo/src/test/resources
+2019-12-29 20:12:24,058 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-service/src/main/java
+2019-12-29 20:12:24,059 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-service/src/main/resources
+2019-12-29 20:12:24,059 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-service/src/test/java
+2019-12-29 20:12:24,060 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-service/src/test/resources
+2019-12-29 20:12:24,349 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-student/src/main/java
+2019-12-29 20:12:24,350 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-student/src/main/resources
+2019-12-29 20:12:24,350 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-student/src/test/java
+2019-12-29 20:12:24,350 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-student/src/test/resources
+2019-12-29 20:12:25,521 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-teacher/src/main/java
+2019-12-29 20:12:25,522 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-teacher/src/main/resources
+2019-12-29 20:12:25,523 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-teacher/src/test/java
+2019-12-29 20:12:25,523 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-teacher/src/test/resources
+2019-12-29 20:12:27,107 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-admin
+2019-12-29 20:12:27,485 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-student
+2019-12-29 20:12:27,544 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-teacher
+2019-12-29 20:12:27,548 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2019-12-29 20:12:28,633 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:28,634 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:28,635 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:28,636 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:30,243 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:30,243 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:30,244 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:30,244 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:30,525 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:30,525 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2019-12-29 20:12:30,804 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:30,804 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:31,481 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:31,482 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:31,483 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:31,483 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:32,128 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:32,128 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:12:32,238 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:32,239 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:32,239 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-admin
+2019-12-29 20:12:32,239 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-admin
+2019-12-29 20:12:32,245 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:33,570 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:33,571 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:12:33,701 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:33,701 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:33,702 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-student
+2019-12-29 20:12:33,702 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-student
+2019-12-29 20:12:33,706 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:34,259 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:34,259 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:12:34,298 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:12:34,298 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:12:34,298 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-teacher
+2019-12-29 20:12:34,298 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-teacher
+2019-12-29 20:12:34,302 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:02,174 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-12-29 20:24:03,770 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-admin:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-admin\pom.xml.
+2019-12-29 20:24:04,376 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-common:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-common\pom.xml.
+2019-12-29 20:24:04,530 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-mapper:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-mapper\pom.xml.
+2019-12-29 20:24:04,574 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: exam.qhmu:exam-parent:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-parent\pom.xml.
+2019-12-29 20:24:04,810 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-pojo:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-pojo\pom.xml.
+2019-12-29 20:24:05,039 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-service:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-service\pom.xml.
+2019-12-29 20:24:05,355 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-student:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-student\pom.xml.
+2019-12-29 20:24:05,737 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-teacher:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-teacher\pom.xml.
+2019-12-29 20:24:10,001 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-admin/src/main/java
+2019-12-29 20:24:10,001 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-admin/src/main/resources
+2019-12-29 20:24:10,002 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-admin/src/test/java
+2019-12-29 20:24:10,002 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-admin/src/test/resources
+2019-12-29 20:24:10,233 [Worker-22] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure exam-admin
+org.eclipse.m2e.wtp.MarkedException: Unable to configure exam-admin
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:71) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.0.v20150423-0755.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) ~[org.eclipse.core.resources_3.10.0.v20150423-0755.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:133) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2019-12-29 20:24:10,957 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/main/java
+2019-12-29 20:24:10,957 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/main/resources
+2019-12-29 20:24:10,960 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/test/java
+2019-12-29 20:24:10,960 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/test/resources
+2019-12-29 20:24:11,245 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-mapper/src/main/java
+2019-12-29 20:24:11,246 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /exam-mapper/src/main/java overlaps with sources folder /exam-mapper/src/main/java
+2019-12-29 20:24:11,247 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-mapper/src/test/java
+2019-12-29 20:24:11,247 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-mapper/src/test/resources
+2019-12-29 20:24:12,008 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-pojo/src/main/java
+2019-12-29 20:24:12,008 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-pojo/src/main/resources
+2019-12-29 20:24:12,009 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-pojo/src/test/java
+2019-12-29 20:24:12,009 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-pojo/src/test/resources
+2019-12-29 20:24:12,166 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-service/src/main/java
+2019-12-29 20:24:12,166 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-service/src/main/resources
+2019-12-29 20:24:12,167 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-service/src/test/java
+2019-12-29 20:24:12,167 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-service/src/test/resources
+2019-12-29 20:24:12,604 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-student/src/main/java
+2019-12-29 20:24:12,605 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-student/src/main/resources
+2019-12-29 20:24:12,605 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-student/src/test/java
+2019-12-29 20:24:12,605 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-student/src/test/resources
+2019-12-29 20:24:13,568 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-teacher/src/main/java
+2019-12-29 20:24:13,568 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-teacher/src/main/resources
+2019-12-29 20:24:13,569 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-teacher/src/test/java
+2019-12-29 20:24:13,569 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-teacher/src/test/resources
+2019-12-29 20:24:15,869 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-admin
+2019-12-29 20:24:16,179 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-student
+2019-12-29 20:24:16,203 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-teacher
+2019-12-29 20:24:16,210 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2019-12-29 20:24:16,639 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:16,640 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:16,642 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:16,642 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:19,335 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:19,335 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:19,336 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:19,336 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:19,890 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:19,891 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2019-12-29 20:24:20,155 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:20,156 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:21,403 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:21,403 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:21,404 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:21,404 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:22,325 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:22,326 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:24:22,380 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:22,380 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:22,381 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-admin
+2019-12-29 20:24:22,381 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-admin
+2019-12-29 20:24:22,386 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:24,099 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:24,100 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:24:24,225 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:24,226 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:24,226 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-student
+2019-12-29 20:24:24,226 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-student
+2019-12-29 20:24:24,250 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:24,976 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:24,977 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:24:25,041 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:24:25,042 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:24:25,042 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-teacher
+2019-12-29 20:24:25,042 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-teacher
+2019-12-29 20:24:25,045 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:25:22,855 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-admin
+2019-12-29 20:25:23,850 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-student
+2019-12-29 20:25:24,205 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for exam-teacher
+2019-12-29 20:26:23,788 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:23,789 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:23,790 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:23,791 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:25,638 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:25,639 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:25,640 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:25,640 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:25,979 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:25,980 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2019-12-29 20:26:26,274 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:26,275 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:27,263 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:27,264 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:27,264 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:27,265 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:28,296 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:28,296 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:26:28,327 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:28,327 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:28,327 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-admin
+2019-12-29 20:26:28,328 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-admin
+2019-12-29 20:26:28,334 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:29,866 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:29,867 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:26:29,899 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:29,900 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:29,900 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-student
+2019-12-29 20:26:29,900 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-student
+2019-12-29 20:26:29,902 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:30,751 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:30,751 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:26:30,790 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:26:30,791 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:26:30,791 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-teacher
+2019-12-29 20:26:30,791 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-teacher
+2019-12-29 20:26:30,795 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:28:51,047 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-service
+2019-12-29 20:28:51,047 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2019-12-29 20:28:55,657 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:28:55,660 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:28:55,661 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:28:55,661 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:29:26,266 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-teacher
+2019-12-29 20:29:26,267 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2019-12-29 20:29:37,777 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\code_zyy\exam-system\exam-teacher
+2019-12-29 20:29:37,777 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2019-12-29 20:31:12,601 [Worker-20] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for exam.qhmu:exam-mapper:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact exam.qhmu:exam-mapper:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:223) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2019-12-29 20:31:12,612 [Worker-20] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for exam.qhmu:exam-pojo:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact exam.qhmu:exam-pojo:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:223) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2019-12-29 20:31:12,630 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis:3.2.8
+2019-12-29 20:31:12,646 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis-spring:1.2.2
+2019-12-29 20:31:12,664 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.miemiedev:mybatis-paginator:1.2.15
+2019-12-29 20:31:12,673 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.2
+2019-12-29 20:31:12,686 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jsqlparser:jsqlparser:0.9
+2019-12-29 20:31:12,708 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2019-12-29 20:31:12,744 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2019-12-29 20:31:12,759 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:5.1.32
+2019-12-29 20:31:12,786 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.alibaba:druid:1.0.9
+2019-12-29 20:31:12,800 [Worker-20] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for exam.qhmu:exam-common:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact exam.qhmu:exam-common:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:223) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134) [org.eclipse.m2e.jdt_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2019-12-29 20:31:12,813 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.4.2
+2019-12-29 20:31:12,827 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.4.0
+2019-12-29 20:31:12,843 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.4.2
+2019-12-29 20:31:12,855 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.1.3.RELEASE
+2019-12-29 20:31:12,871 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.1.3.RELEASE
+2019-12-29 20:31:12,887 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-12-29 20:31:12,900 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.1.3.RELEASE
+2019-12-29 20:31:12,984 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-12-29 20:31:13,014 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.1.3.RELEASE
+2019-12-29 20:31:13,059 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.1.3.RELEASE
+2019-12-29 20:31:13,081 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:4.1.3.RELEASE
+2019-12-29 20:31:13,113 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.1.3.RELEASE
+2019-12-29 20:31:13,139 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.1.3.RELEASE
+2019-12-29 20:31:13,160 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.1.3.RELEASE
+2019-12-29 20:31:13,177 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aspects:4.1.3.RELEASE
+2019-12-29 20:31:13,195 [Worker-20] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.4
+2019-12-29 20:31:13,450 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:13,450 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:13,451 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:13,451 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:24,665 [Worker-24] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.4.2
+2019-12-29 20:31:24,678 [Worker-24] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.4.0
+2019-12-29 20:31:24,699 [Worker-24] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.4.2
+2019-12-29 20:31:24,831 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:24,831 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:24,832 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:24,832 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:37,209 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-12-29 20:31:38,101 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-common:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-common\pom.xml.
+2019-12-29 20:31:38,247 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/main/java
+2019-12-29 20:31:38,247 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/main/resources
+2019-12-29 20:31:38,248 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/test/java
+2019-12-29 20:31:38,248 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/test/resources
+2019-12-29 20:31:38,644 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-12-29 20:31:38,938 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:38,938 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:38,939 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:38,939 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:39,679 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:39,679 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:39,680 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:39,680 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:40,508 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:40,509 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:31:40,511 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:40,512 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:40,827 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:40,828 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:31:40,829 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:40,829 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:31:40,998 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:40,999 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-12-29 20:31:41,000 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:31:41,001 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:01,463 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-12-29 20:32:02,497 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-common:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-common\pom.xml.
+2019-12-29 20:32:02,753 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-teacher:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-teacher\pom.xml.
+2019-12-29 20:32:03,311 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-service:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-service\pom.xml.
+2019-12-29 20:32:03,650 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-admin:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-admin\pom.xml.
+2019-12-29 20:32:04,001 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: exam.qhmu:exam-student:0.0.1-SNAPSHOT @ D:\code_zyy\exam-system\exam-student\pom.xml.
+2019-12-29 20:32:07,924 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/main/java
+2019-12-29 20:32:07,925 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/main/resources
+2019-12-29 20:32:07,925 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exam-common/src/test/java
+2019-12-29 20:32:07,925 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exam-common/src/test/resources
+2019-12-29 20:32:08,205 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2019-12-29 20:32:08,548 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:08,548 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:08,550 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:08,550 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:09,519 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:09,525 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:09,526 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:09,527 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:10,370 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:10,370 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:10,371 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:10,372 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:10,946 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:10,947 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:10,948 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:10,949 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:11,578 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:11,579 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:11,580 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 20:32:11,580 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-29 20:32:11,580 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of exam-teacher
+2019-12-29 20:32:11,580 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for exam-teacher
+2019-12-29 20:32:11,590 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
