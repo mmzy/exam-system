@@ -44,97 +44,87 @@
     		<td width="741" valign="top" class="rightbian">
     		<form action="">
     			<table width="98%" border="0" align="center" cellpadding="0" cellspacing="10">
-    				<%-- <tr>
-    					<td><div align="center" class="STYLE3">考试时间：${examTimeLength/60 } 分钟</div></td>
-    					<td><div align="center" class="STYLE3">考生：${studentInfo.name }</div></td>
-    					<td><div align="center" class="STYLE3">总分：${sum }分</div></td>
-    					
-    				</tr> --%>
-    				<tr>
-    					<td>&nbsp;<input type="hidden" name="id" value="${publishexam.id }" /></td>
-    					<td><div id="tTime"></div><div id="examTimes" style="display:none">${examTime }</div></td>
-    					<td><div id="tTime"></div><div id="examTimes1"></div></td>
-    				</tr>
-    				
-    			<c:forEach  items="${textModelList }" var="textmodel">
+<%--     			
 	    				<tr>
 	    					<td colspan="3" bgcolor="#999999" class="STYLE4">${textmodel.texttype }</td>
-	    				</tr>
+	    				</tr> --%>
 	    				
 	    				<!--题目开始-->
     				<c:forEach  items="${textList }" var="texts" varStatus="vs">
-    					<c:if test="${texts.texId == textmodel.id }">
+    					<%-- <c:if test="${texts.texId == textmodel.id }"> --%>
 		    				<tr>
 		    					<input type="hidden" name="examList[${vs.count }].textId" value="${texts.id }" />
-		    					<td colspan="3"><strong>第<span class="STYLE5">${vs.count }</span>题&nbsp;${texts.title }</strong></td>
+		    					<td colspan="3"><strong>第<span class="STYLE5">${vs.count }</span>题
+		    						&nbsp;(${texts.text.modelname })&nbsp;
+		    						${texts.text.title }</strong></td>
 		    				</tr>
 		    				
-		    				<c:if test="${texts.texId == 2 }">
+		    				<c:if test="${texts.text.texId == 2 }">
 			    				<tr>
-			    					<td height="32" colspan="3" bgcolor="#CCCCCC">正确答案：${texts.answer }</td>
+			    					<td height="32" colspan="3" bgcolor="#CCCCCC">正确答案：${texts.text.answer }</td>
 			    				</tr>
 			    				<tr>
 			    					<td height="32" colspan="3" bgcolor="#CCCCCC">你的答案：${texts.answer }</td>
 			    				</tr>
 		    				</c:if>
-		    				<c:if test="${texts.texId == 1 }">
+		    				<c:if test="${texts.text.texId == 1 }">
 			    				<tr>
-			    					<td colspan="3"><strong>A.</strong>${texts.type1 }</td>
+			    					<td colspan="3"><strong>A.</strong>${texts.text.type1 }</td>
 			    				</tr>
 			    				<tr>
-			    					<td colspan="3"><strong>B.</strong>${texts.type2 }</td>
+			    					<td colspan="3"><strong>B.</strong>${texts.text.type2 }</td>
 			    				</tr>
 			    				<tr>
-			    					<td colspan="3"><strong>C.</strong>${texts.type3 }</td>
+			    					<td colspan="3"><strong>C.</strong>${texts.text.type3 }</td>
 			    				</tr>
 			    				<tr>
-			    					<td colspan="3"><strong>D.</strong>${texts.type4 }</td>
+			    					<td colspan="3"><strong>D.</strong>${texts.text.type4 }</td>
 			    				</tr>
 			    				<tr>
-			    					<td height="32" colspan="3" bgcolor="#CCCCCC">正确答案：${texts.answer }</td>
-			    				</tr>
-			    				<tr>
-			    					<td height="32" colspan="3" bgcolor="#CCCCCC">你的答案：${texts.answer }</td>
-			    				</tr>
-		    				</c:if>
-		    				<c:if test="${texts.texId == 8 }">
-			    				<tr>
-			    					<td colspan="3"><strong>A.</strong>${texts.type1 }</td>
-			    				</tr>
-			    				<tr>
-			    					<td colspan="3"><strong>B.</strong>${texts.type2 }</td>
-			    				</tr>
-			    				<tr>
-			    					<td colspan="3"><strong>C.</strong>${texts.type3 }</td>
-			    				</tr>
-			    				<tr>
-			    					<td colspan="3"><strong>D.</strong>${texts.type4 }</td>
-			    				</tr>
-			    				<tr>
-			    					<td colspan="3"><strong>E.</strong>${texts.type4 }</td>
-			    				</tr>
-			    				<tr>
-			    					<td colspan="3"><strong>F.</strong>${texts.type4 }</td>
-			    				</tr>
-			    				<tr>
-			    					<td colspan="3"><strong>G.</strong>${texts.type4 }</td>
-			    				</tr>
-			    				<tr>
-			    					<td height="32" colspan="3" bgcolor="#CCCCCC">正确答案：${texts.answer }</td>
+			    					<td height="32" colspan="3" bgcolor="#CCCCCC">正确答案：${texts.text.answer }</td>
 			    				</tr>
 			    				<tr>
 			    					<td height="32" colspan="3" bgcolor="#CCCCCC">你的答案：${texts.answer }</td>
 			    				</tr>
 		    				</c:if>
-		    				<c:if test="${texts.texId != 1 and texts.texId != 2 and texts.texId != 8 }">
+		    				<c:if test="${texts.text.texId == 8 }">
+			    				<tr>
+			    					<td colspan="3"><strong>A.</strong>${texts.text.type1 }</td>
+			    				</tr>
+			    				<tr>
+			    					<td colspan="3"><strong>B.</strong>${texts.text.type2 }</td>
+			    				</tr>
+			    				<tr>
+			    					<td colspan="3"><strong>C.</strong>${texts.text.type3 }</td>
+			    				</tr>
+			    				<tr>
+			    					<td colspan="3"><strong>D.</strong>${texts.text.type4 }</td>
+			    				</tr>
+			    				<tr>
+			    					<td colspan="3"><strong>E.</strong>${texts.text.type4 }</td>
+			    				</tr>
+			    				<tr>
+			    					<td colspan="3"><strong>F.</strong>${texts.text.type4 }</td>
+			    				</tr>
+			    				<tr>
+			    					<td colspan="3"><strong>G.</strong>${texts.text.type4 }</td>
+			    				</tr>
+			    				<tr>
+			    					<td height="32" colspan="3" bgcolor="#CCCCCC">正确答案：${texts.text.answer }</td>
+			    				</tr>
+			    				<tr>
+			    					<td height="32" colspan="3" bgcolor="#CCCCCC">你的答案：${texts.answer }</td>
+			    				</tr>
+		    				</c:if>
+		    				<c:if test="${texts.text.texId != 1 and texts.text.texId != 2 and texts.text.texId != 8 }">
 		    				   <c:choose  >
-		    				   <c:when test="${texts.texId == 7}">
+		    				   <c:when test="${texts.text.texId == 7}">
 			    				<tr>				
 		    						<%-- <td colspan="3">
 		    							<textarea rows="5" cols="270" name="examList[${vs.count }].answer"></textarea>
 		    						</td> --%>
 		    						<td colspan="3">
-		    							正确答案：${texts.answer }
+		    							正确答案：${texts.text.answer }
 		    						</td>
 	    						</tr>
 		    					<tr>
@@ -147,7 +137,7 @@
 			    					<tr>				
 			    						<%-- <td colspan="3"><textarea rows="5" cols="70" name="examList[${vs.count }].answer"></textarea></td> --%>
 			    						<td colspan="3">
-			    							正确答案：${texts.answer }
+			    							正确答案：${texts.text.answer }
 			    						</td>
 			    					</tr>
 			    					<tr>
@@ -159,9 +149,8 @@
 			    				</c:choose>
 		    				</c:if>
 		    				
-		    			</c:if>
-   					</c:forEach>		
-    			</c:forEach>	  				
+		    			<%-- </c:if> --%>
+   					</c:forEach>  				
     				
     				<!--题目结束-->
     				<!-- <tr>

@@ -2,10 +2,12 @@ package com.exam.service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 import com.exam.pojo.Examhis;
 import com.exam.pojo.Student;
 import com.github.pagehelper.PageInfo;
+import org.springframework.context.ApplicationContext;
 
 public interface ExamHisService {
 	
@@ -39,4 +41,6 @@ public interface ExamHisService {
 	PageInfo<Examhis> selectExamStudent(int id, int pageNum, int pageSize, int status);
 
 	Examhis selectByKey(String studentid, int publishexamid);
+
+	void MarkingExam(Examhis examhis, ApplicationContext context);
 }

@@ -23,7 +23,4 @@ public class TextModel {
 	public void setGrade(Integer grade) {
 		this.grade = grade;
 	}
-	
-	
-	
 }

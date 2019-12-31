@@ -1,27 +1,45 @@
 package com.exam.service.impl;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
+import com.alibaba.druid.support.json.JSONParser;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.exam.mapper.PublishexamMapper;
+import com.exam.pojo.*;
+import com.exam.service.PublishExamService;
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 import com.exam.mapper.ExamhisMapper;
-import com.exam.pojo.Examhis;
-import com.exam.pojo.ExamhisExample;
 import com.exam.pojo.ExamhisExample.Criteria;
-import com.exam.pojo.ExamhisKey;
-import com.exam.pojo.Student;
 import com.exam.service.ExamHisService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
+import javax.annotation.PostConstruct;
+
 @Service
-public class ExamHisServiceImpl implements ExamHisService {
+public class ExamHisServiceImpl implements ExamHisService{
 	
 	@Autowired
 	private ExamhisMapper examhisMapper;
-	
+	@Autowired
+	private PublishexamMapper publishexamMapper;
+
+    private static ConcurrentLinkedQueue<Examhis> examHisQuery = new ConcurrentLinkedQueue<Examhis>();
+
+
+    public static ConcurrentLinkedQueue<Examhis> getExamHisQuery(){
+        return ExamHisServiceImpl.examHisQuery;
+    }
 
 	@Override
 	public List<Examhis> selectStudentById(String id) {
@@ -89,7 +107,7 @@ public class ExamHisServiceImpl implements ExamHisService {
 
 	@Override
 	public Examhis selectByKey(String studentid, int publishexamid) {
-		
+
 		ExamhisExample example = new ExamhisExample();
 		Criteria criteria = example.createCriteria();
 		criteria.andStudentidEqualTo(studentid);
@@ -97,7 +115,40 @@ public class ExamHisServiceImpl implements ExamHisService {
 		List<Examhis> list = examhisMapper.selectByExampleWithBLOBs(example);
 		return list.get(0);
 	}
-	
-	
 
+	public void MarkingExam(Examhis examhis,ApplicationContext context){
+
+        PublishexamWithBLOBs publishexamWithBLOBs =  ((PublishexamMapper)(context.getBean("publishexamMapper")))
+                .selectByPrimaryKey
+                (examhis
+                .getPublishexamid());
+
+        String exams = publishexamWithBLOBs.getExam();
+        JSONArray examsArray = JSONArray.parseArray(exams);
+        Map<Integer,Integer> examsGrade = new HashMap<>();
+        for (int i=0;i<examsArray.size();i++){
+            JSONObject json = examsArray.getJSONObject(i);
+            examsGrade.put(json.getInteger("textModelId"),json.getInteger("grade")/json.getInteger("textCount"));
+        }
+
+        String text = examhis.getExamtest();
+        JSONArray jsonArray = JSONArray.parseArray(text);
+        Map<Integer,Integer>  textObject  = new HashMap<>();
+        int score = 0;
+        for (int i=0;i<jsonArray.size();i++){
+            JSONObject json = jsonArray.getJSONObject(i);
+            String currentAnswer = json.getString("answer");
+            JSONObject jsonText = json.getJSONObject("text");
+            String userAnswer = jsonText.getString("answer");
+            if(currentAnswer!=null&&userAnswer!=null&&currentAnswer.trim()!=""&&currentAnswer.equals(userAnswer)){
+                score = score + examsGrade.get(jsonText.getInteger("texId"));
+            }
+        }
+        ExamhisKey examhisKey = new ExamhisKey();
+        examhisKey.setStudentid(examhis.getStudentid());
+        examhisKey.setSubjectid(examhis.getSubjectid());
+        Examhis dataBaseExamhis = ((ExamhisMapper)(context.getBean("examhisMapper"))).selectByPrimaryKey(examhisKey);
+        dataBaseExamhis.setScore(score);
+        ((ExamhisMapper)(context.getBean("examhisMapper"))).updateByPrimaryKey(dataBaseExamhis);
+    }
 }

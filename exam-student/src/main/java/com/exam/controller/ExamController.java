@@ -4,19 +4,20 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.exam.service.impl.ExamHisServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import com.exam.pojo.Examhis;
 import com.exam.pojo.Publishexam;
@@ -145,6 +146,7 @@ public class ExamController {
 		model.addAttribute("examTime", (date2.getTime() - date.getTime())/1000);
 		return "/exam/exam";
 	}
+
 	
 	@RequestMapping(value="/examEnd", method=RequestMethod.POST)
 	@ResponseBody
@@ -155,6 +157,7 @@ public class ExamController {
 		Student student = (Student) session.getAttribute("studentInfo");
 		
 		Examhis examhis = examhisService.studentIsNotExam(student.getId(), publishexam.getSubjectId(), publishexam.getExamtime());
+		ConcurrentLinkedQueue queue = ExamHisServiceImpl.getExamHisQuery();
 		List<Exam> list = examList.getExamList();
 		list.remove(0);
 		for (Exam exam : list) {
@@ -167,7 +170,27 @@ public class ExamController {
 		examhis.setExamtest(json);
 		examhis.setStatus(2);
 		examhisService.update(examhis);
+		queue.add(examhis);
 		return AjaxResult.successInstance("您已成功提交考试");
+	}
+
+
+	@RequestMapping(value="/mistakesNote", method=RequestMethod.GET)
+	@ResponseBody
+	public AjaxResult mistakesNote(@RequestParam("studentId")String studentId, @RequestParam("publishExamId") Integer publishExamId){
+		Examhis examHis = examhisService.selectByKey(studentId,publishExamId);
+		String examTest = examHis.getExamtest();
+		JSONArray examTestArray = JSONArray.parseArray(examTest);
+		JSONArray returnNote = new JSONArray();
+		for(int i =0;i<examTestArray.size();i++){
+			JSONObject object = examTestArray.getJSONObject(i);
+			JSONObject text = object.getJSONObject("text");
+			if(!object.getString("answer").equals(text.getString("answer"))){
+				returnNote.add(object);
+			}
+		}
+
+		return AjaxResult.successInstance(returnNote);
 	}
 
 }
