@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:17:40 +0800] "GET /index HTTP/1.1" 302 - http-bio-8082-exec-2 209
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:17:42 +0800] "GET /student/login HTTP/1.1" 200 6213 http-bio-8082-exec-3 2562
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:17:43 +0800] "GET /images/login-top-bg.gif HTTP/1.1" 404 949 http-bio-8082-exec-4 17
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:17:43 +0800] "GET /images/login-content-bg.gif HTTP/1.1" 404 949 http-bio-8082-exec-1 14
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:17:54 +0800] "POST /student/login HTTP/1.1" 302 - http-bio-8082-exec-5 2024
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:17:55 +0800] "GET /index HTTP/1.1" 200 3735 http-bio-8082-exec-7 665
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:17:56 +0800] "GET /welcome HTTP/1.1" 200 1818 http-bio-8082-exec-8 500
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:02 +0800] "GET /exam/list HTTP/1.1" 200 5683 http-bio-8082-exec-9 2278
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:07 +0800] "GET /html/home?id=2 HTTP/1.1" 200 1982 http-bio-8082-exec-10 575
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:10 +0800] "GET /html/login?id=2 HTTP/1.1" 200 2322 http-bio-8082-exec-10 343
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:12 +0800] "GET /html/rule?id=2 HTTP/1.1" 200 3273 http-bio-8082-exec-10 780
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:34 +0800] "GET /exam/exam?id=2 HTTP/1.1" 200 53323 http-bio-8082-exec-10 1259
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:35 +0800] "GET /css/centerbg.jpg HTTP/1.1" 404 949 http-bio-8082-exec-10 3
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:46 +0800] "POST /exam/examEnd HTTP/1.1" 200 65 http-bio-8082-exec-10 220
+0:0:0:0:0:0:0:1 - - [05/Jan/2020:22:18:47 +0800] "GET /exam/list HTTP/1.1" 200 5683 http-bio-8082-exec-10 13
